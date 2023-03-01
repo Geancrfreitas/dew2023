@@ -1,1 +1,28 @@
-teste
+Aula de hoje - 1/03/23
+Passos do Github
+1-Entrar no Github com email e senha
+2-Entrar no VSCode
+3-Fechar pasta (se estiver aberta) -file-->Close folder
+3-Ir no "source-control"
+4-Clone repository
+5-Copiar url do repositório no Github e colar no VSCode 
+6-Clonar o diretório em C:/ xampp/ htdocs e clicar em "open"
+7-Tela azul se confia em autor, clicar em "Sim"
+---------------------------------Fim Clonagem Do Repositório Do Github-------------------------------------------------------
+-----------------------------------------Configurar Terminal-----------------------------------------------------------------
+1-Ir no menu terminal -->new terminal
+2-Digitar os comandos
+    git config --global user.email "email-do-Github"
+    git config --global user.name "nome-de-usuario-do-Github"
+3-Fechar terminal
+------------------------------------------------------------------------------------------------------------------------------
+-------------------------------Enviar Mudanças Para O Github------------------------------------------------------------------
+1-Salvar as Mudanças "Ctrl + s"
+2-Ir no source-control
+3-Em changes clicar "+"
+4-Colocar mensagem no comit
+5-Clicar na setinha do comit (azul)
+6-Clicar em "comit & push"
+7-Dar as autorizações no navegador (somente na primeira vez(no dia))
+8-Atualizar o Github
+----------------------------------------------------End-----------------------------------------------------------------------
