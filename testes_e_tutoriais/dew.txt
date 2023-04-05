@@ -26,3 +26,9 @@ Passos do Github
 7-Dar as autorizações no navegador (somente na primeira vez(no dia))
 8-Atualizar o Github
 ----------------------------------------------------End-----------------------------------------------------------------------
+
+
+05/04/23
+Formatação básica em html:
+<b> <b/> tag para texto em negrito
+<i> <i/> tag para texto em itálico
