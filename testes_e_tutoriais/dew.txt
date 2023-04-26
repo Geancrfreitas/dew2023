@@ -35,4 +35,4 @@ Formatação básica em html:
 <i> <i/> tag para texto em itálico
 <div> <div/> tag que define blocos de elementos na página
  link p/ comandos do HTML(Ctrl+click):https://ead.bri.ifsp.edu.br/moodle/pluginfile.php/107678/mod_resource/content/1/Aula%202%20-%20Conhecendo%20o%20HTML.pdf
- 
+  
