@@ -8,21 +8,57 @@
 </head>
 <body>
     <h1>Formulário</h1>
-    <a href="../index.html"><img src="../img/home.webp" width="50" alt="home"> </a>
+    <a href="../index.html"><img src="../img/home.webp" width="50" alt="home"> </a>    
     <br><br>
     <form action="" method="">
         <div>
-            <label for="nome_usuario">Nome:</label>
+            <label for="nome_usuario" >Nome:</label>
                 <!--label insere um rótulo(Nome de Usuario por exemplo) para demonstrar ao usuario oque ele deve inserir-->
                 <!--passa a inserir o texto como parte do formulário-->
-            <input type="text" name="nome_usuario" id="nome_usuario" size="50" maxlength="25" minlength="5">
+            <input type="text" name="nome_usuario" id="nome_usuario" size="50" maxlength="25" minlength="5" placeholder="Seu Nome">
                 <!--Imput (text) é um campo de entrada de texto, id e name adicionam uma tag para a entrada do formulário-->
                 <!--size muda o tamanho do formulário e maxleght/minleght alteram o maximo ou mínimo de caracteres-->
         </div>
         <div>
             <label for="senha">Senha:</label>
-            <input type="password" name="senha" id="senha" size="10" maxlength="6" minlength="6" required>
+            <input type="password" name="senha" id="senha" size="10" maxlength="6" minlength="6" placeholder="senha" required>
                 <!-- required exige que o campo seja preenchido-->
+        </div>
+        <div>
+            <label for="">Hobbies</label>
+            <input type="checkbox" name="esporte" id="esporte">
+            <label for="esporte">Esportes</label>
+            <input type="checkbox" name="cinema" id="cinema">
+            <label for="cinema">Cinema</label>
+            <input type="checkbox" name="leitura" id="leitura">
+            <label for="leitura">Leitura</label>
+        </div>
+        <div>
+            <label for="Escolha o Tipo"></label>
+            <input type="radio" name="tipo" id="adulto" checked>
+            <label for="adulto">Adulto</label>
+            <input type="radio" name="tipo" id="adolescente">
+            <label for="adolescente">Adolescente</label>
+            <input type="radio" name="tipo" id="crianca">
+            <label for="crianca">Criança</label>
+        </div>
+        <br>
+        <div>
+            <label for="arquivo">Escolha um arquivo</label>
+            <input type="file" name="arquivo" id="arquivo" accept="image/png, image/jpeg">
+        </div>
+        <br>
+        <div>
+            <label for="">Escolha uma opção:</label>
+            <select name="opc" id="opc">
+                <option value="tsi">TSI</option>
+                <option value="tme">TME</option>
+                <option value="inf">Informática</option>
+                <option value="adm">Administração</option>
+            </select>
+        </div>
+        <div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="deixe seu recado"></textarea>
         </div>
         <div>
             <button type="submit">Enviar</button>
@@ -33,9 +69,5 @@
                 -->
         </div>
     </form>
-
-
-
-    
 </body>
 </html>
