@@ -7,8 +7,98 @@
     <title>Atividade Formulário</title>
 </head>
 <body>
-    
+    <h1>Atividade Formulário</h1>
+    <a href="../index.html"><img src="../img/home.webp" width="50"></a>
+    <br><br>
+    <form action="../testes_e_tutoriais/formulario.c++">
+        <fieldset>
+            <h1>Formulário</h1>
+        
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <div>
+                <label for="Nom">Nome:</label>
+                <input type="text" name="nom" id="nom">
+            </div>
+            <div>
+                <label for="en">Endereço:</label>
+                <input type="text" name="en" id="en">
+            </div>
+            <div>
+                <label for="cid">Cidade:</label>
+                <input type="text" name="cid" id="cid">
+            </div>
+            <div>
+                <label for="est">Estado:</label>
+                <select name="est" id="est">
+                    <option value="AC">AC</option>
+                    <option value="AL">AL</option>
+                    <option value="AP">AP</option>
+                    <option value="AM">AM</option>
+                    <option value="BA">BA</option>
+                    <option value="CE">CE</option>
+                    <option value="ES">ES</option>
+                    <option value="GO">GO</option>
+                    <option value="MA">MA</option>
+                    <option value="MT">MT</option>
+                    <option value="MS">MS</option>
+                    <option value="MG">MG</option>
+                    <option value="PA">PA</option>
+                    <option value="PB">PB</option>
+                    <option value="PR">PR</option>
+                    <option value="PE">PE</option>
+                    <option value="PI">PI</option>
+                    <option value="RJ">RJ</option>
+                    <option value="RN">RN</option>
+                    <option value="RS">RS</option>
+                    <option value="RO">RO</option>
+                    <option value="RR">RR</option>
+                    <option value="SC">SC</option>
+                    <option value="SP">SP</option>
+                    <option value="SC">SC</option>
+                    <option value="TO">TO</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Dados profissionais</legend>
+            <div>
+                <label for="">Natureza do Cargo</label>
+                <input type="radio" name="ge" id="ge">
+                <label for="ge">Gerência</label>
+                <input type="radio" name="fi" id="fi">
+                <label for="fi">Financeiro</label>
+                <input type="radio" name="re" id="re">
+                <label for="re">Recepção</label>
+                <input type="radio" name="ad" id="ad">
+                <label for="ad">Administrativo</label>
+                <input type="radio" name="ju" id="ju">
+                <label for="ju">Jurídico</label>
+            </div>
+            <div>
+                <label for="">Área de interesse</label>
+                <input type="checkbox" name="co" id="co">
+                <label for="co">Computação</label>
+                <input type="checkbox" name="bi" id="bi">
+                <label for="bi">Biologia</label>
+                <input type="checkbox" name="ma" id="ma">
+                <label for="ma">Meio Ambiente</label>
+                <input type="checkbox" name="en" id="en">
+                <label for="en">Engenharia</label>
+                <input type="checkbox" name="hi" id="hi">
+                <label for="hi">História</label>
+            </div>
+            <div>
+                <textarea name="mc" id="" cols="30" rows="10"></textarea>
+                <label for="mc">Mini Curriculo</label>
+            </div>
+            </fieldset>
+       
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </fieldset>
+    </form>
 
-    
+
 </body>
 </html>
