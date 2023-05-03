@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <a href="../index.html"><img src="../img/home.webp" width="50" alt="home"> </a>
+    <br><br>
+    <form action="" method="">
+        <div>
+            <label for="nome_usuario">Nome:</label>
+                <!--label insere um rótulo(Nome de Usuario por exemplo) para demonstrar ao usuario oque ele deve inserir-->
+                <!--passa a inserir o texto como parte do formulário-->
+            <input type="text" name="nome_usuario" id="nome_usuario" size="50" maxlength="25" minlength="5">
+                <!--Imput (text) é um campo de entrada de texto, id e name adicionam uma tag para a entrada do formulário-->
+                <!--size muda o tamanho do formulário e maxleght/minleght alteram o maximo ou mínimo de caracteres-->
+        </div>
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" size="10" maxlength="6" minlength="6" required>
+                <!-- required exige que o campo seja preenchido-->
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Apagar</button>
+                <!--Botões (tambêm pode ser usado:)
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Apagar">
+                -->
+        </div>
+    </form>
+
+
+
+    
+</body>
+</html>
