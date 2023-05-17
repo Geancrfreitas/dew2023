@@ -1,5 +1,5 @@
 div{
-    background-color: crimson;/*altera cor de fundo*/
+    background-color: rgba(220, 20, 60, 0.404);/*altera cor de fundo*/
     font-family:'Times New Roman';/*altera tipo de fonte ps. se a fonte tiver mais de uma palavra= 'x'(serifada ou c/serifa)*/
     font-size: 30px;/*altera tamanho da fonte*/
 }
@@ -8,4 +8,18 @@ div li {
 }
 h1, h2{
     font-size: 50px;
+}
+#divum{
+color: blueviolet;
+}
+
+#divois{
+color: blue;
+}
+.clasum{
+background-color: brown;
+}
+
+.clasois{
+color: crimson;
 }
