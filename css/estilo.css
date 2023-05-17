@@ -1,0 +1,11 @@
+div{
+    background-color: crimson;/*altera cor de fundo*/
+    font-family:'Times New Roman';/*altera tipo de fonte ps. se a fonte tiver mais de uma palavra= 'x'(serifada ou c/serifa)*/
+    font-size: 30px;/*altera tamanho da fonte*/
+}
+div li {
+    font-family:Arial;/*sem serifa s/serifa*/
+}
+h1, h2{
+    font-size: 50px;
+}
