@@ -8,7 +8,7 @@ Passos do Github
 5-Copiar url do repositório no Github e colar no VSCode 
 6-Clonar o diretório em C:/ xampp/ htdocs e clicar em "open"
 7-Tela azul se confia em autor, clicar em "Sim"
----------------------------------Fim Clonagem Do Repositório Do Github-------------------------------------------------------
+---------------------------------Fim Clonagem Do Repositório Do Github------------------------------------------------------
 -----------------------------------------Configurar Terminal-----------------------------------------------------------------
 1-Ir no menu terminal -->new terminal
 2-Digitar os comandos
