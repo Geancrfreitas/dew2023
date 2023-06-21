@@ -12,3 +12,8 @@
     padding: 20px;
     border: 2px whitesmoke;
 }
+img{
+    position: absolute;
+    top: 100px;
+    left: 70%;
+}
