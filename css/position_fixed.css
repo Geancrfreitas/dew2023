@@ -3,4 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.section{
+    width: 80%;
+    background-color: darkblue;
+    color: aliceblue;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px whitesmoke;
+}
