@@ -15,7 +15,7 @@ Passos do Github
     git config --global user.email "email-do-Github"
     git config --global user.name "nome-de-usuario-do-Github"
 3-Fechar terminal
------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 -------------------------------Enviar Mudanças Para O Github------------------------------------------------------------------
 1-Salvar as Mudanças "Ctrl + s"
 2-Ir no source-control
